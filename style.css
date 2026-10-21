@@ -1,0 +1,88 @@
+/* TELA DE LOGIN */
+.secao-login {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    background: linear-gradient(45deg, cyan, yellow);
+}
+
+/* CAIXA DE LOGIN */
+.caixa-login {
+    width: 100%;
+    max-width: 350px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* LOGO */
+.caixa-login img {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+}
+
+/* TÍTULO */
+.caixa-login h1 {
+    color: blue;
+    font-size: 26px;
+}
+
+/* TEXTO */
+.caixa-login p {
+    color: #555;
+}
+
+/* CAMPOS */
+.caixa-login label {
+    display: block;
+    text-align: left;
+    margin: 15px 0 5px;
+    font-weight: bold;
+}
+
+.caixa-login input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+/* BOTÃO */
+.caixa-login .botao-login {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.caixa-login .botao-login:hover {
+    background-color: darkblue;
+}
+
+/* LINK PARA VOLTAR */
+.caixa-login .voltar {
+    margin-top: 20px;
+}
+
+.caixa-login .voltar a {
+    color: blue;
+    text-decoration: none;
+}
+
+.caixa-login .voltar a:hover {
+    text-decoration: underline;
+}
